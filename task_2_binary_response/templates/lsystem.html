@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Task_2_binary_response
+{% endblock %}
+
+{% block body %}
+<h1>cool image</h1>
+<img
+  src= "{{url_for('static', filename='/Image/cool_image.svg')}}"
+  alt="yout beautiful image"
+  height="1000px" />
+
+{% endblock %}
